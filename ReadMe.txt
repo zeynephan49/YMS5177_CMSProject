@@ -35,3 +35,11 @@ Documantation
 		4.5.2. Concrete klasörü açılır.
 			4.5.2.1. Base kalsörü açılır.
 			4.5.2.2. EntityTypeRepositories açılır.
+			
+		-----AppUser Kullanım sebebi;Appauaser bizlere kullanıcı ekler.Örneğin kuracağımız siteyi gezecek ve kullanacak admin guest gibi.
+		Category Kullanmamızın sebebi;Category bizim ürün olarak eklediğimiz içeriği kapsayan bir kısımdır.Örneğin bir haber sitesi için kategoriler;spor,magazin,teknoloji
+		Product Kullanım sebebi;Category ile alakalı bağı olacak varlıklar çoka çok veya teke çok ilişkileri olabilir.
+		Page;Sayfamızı oluştururken bize gerekli olan varlıklardır.
+		Entity;Projemizde kullanacağımız önden düşündüğümüz tüm varlıklardır.Entity katmanında varlıklarımızı tanıtırız.Tiplerini,özelliklerini,kalıtımlarını tanıtıyoruz
+		Data;Daha sonra dataya geçip migration hazırlıklarını yapıyoruz.Burdaki entity repositorylerini interfaceten çekiyoruz.
+		Map;Map katmanına geçip tablolarımızı(kim neyle ilişkili) programımıza tanıtıyoruz.
